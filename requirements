@@ -1,0 +1,31 @@
+# ============================================================
+#  RAG PDF Chatbot — Python Dependencies
+#  Install everything with:  pip install -r requirements.txt
+# ============================================================
+
+# Core LangChain framework
+langchain>=0.3.0
+
+# LangChain base interfaces (prompts, runnables, parsers)
+langchain-core>=0.3.0
+
+# LangChain community integrations (FAISS, PyPDFLoader)
+langchain-community>=0.3.0
+
+# LangChain + OpenAI connector (ChatOpenAI, OpenAIEmbeddings)
+langchain-openai>=0.2.0
+
+# Text splitting utilities
+langchain-text-splitters>=0.3.0
+
+# PDF parser used by PyPDFLoader
+pypdf>=4.0.0
+
+# Facebook AI Similarity Search — local vector database
+faiss-cpu>=1.8.0
+
+# Official OpenAI Python SDK
+openai>=1.50.0
+
+# Loads your API key from the .env file automatically
+python-dotenv>=1.0.0
